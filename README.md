@@ -37,17 +37,9 @@ Political Geography examines the spatial aspects of political processes, includi
 Note: When there are courses or books that don't fit into the curriculum but are otherwise of high quality,
 they belong in [extras/courses](extras/courses.md), [extras/readings](extras/readings.md) or [extras/other_curricula](extras/other_curricula.md).
 
-**Process**. Students can work through the curriculum alone or in groups, in order or out of order.
-
-- We recommend doing all courses in **Core**, only skipping a course when you are certain that you've already learned the material previously.
-- For simplicity, we recommend working through courses (especially Core) in order from top to bottom. Some students choose to study multiple courses at a time in order to vary the material they are working on in a day/week.
-- The courses in the Advanced section are electives. Choose one track to specialize in and complete all the courses listed under it.
-
 **[How to contribute](/CONTRIBUTING.html)**
 
 # Communities
-
-## Online Communities for Political Geography
 
 - Subreddits:
   - [r/geopolitics](https://www.reddit.com/r/geopolitics/)
@@ -55,59 +47,100 @@ they belong in [extras/courses](extras/courses.md), [extras/readings](extras/rea
 - Discord servers:
   - [The Geography Discord](https://discord.gg/geography)
 - You can also interact through [GitHub issues](https://github.com/hocbigg/political-geography/issues). If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation. Read more [here](/CONTRIBUTING.html).
+- Join our Discord server (for discussions around this and other curricula): 
+    
+    [![discord link](/assets/discord.png)](https://discord.gg/KHqAv4Nvm5)
 
 # Curriculum
 
-## Intro Political Geography
+- [I. Foundations: Spatial Thinking and Political Basics](#i-foundations-spatial-thinking-and-political-basics)
+- [II. Maps, Space, and Territorial Representation](#ii-maps-space-and-territorial-representation)
+- [III. Core Political Geography](#iii-core-political-geography)
+- [IV. Borders, Nations, and Identity](#iv-borders-nations-and-identity)
+- [V. Geopolitics and Global Power](#v-geopolitics-and-global-power)
+- [VI. Political Economy and Resources](#vi-political-economy-and-resources)
+- [VII. Electoral and Population Geography](#vii-electoral-and-population-geography)
+- [VIII. Environmental and Climate Political Geography](#viii-environmental-and-climate-political-geography)
 
-| Subject | Why study? | Book | Online Course |
-| --- | --- | --- | --- |
-| Introduction to Geography | Provides foundational understanding of physical and human spatial patterns, essential for analyzing how geography influences political phenomena. | [*Introduction to Geography*](https://www.amazon.com/Introduction-Geography-Mark-Bjelland/dp/1260364135) | [Physical Geography / Earth Science 101](https://www.youtube.com/playlist?list=PLYvVgo5Zf0r_3TGlrhJxnLLsRD_DaZD7H) |
-| Introduction to Political Science | Introduces core political theories, institutions, and processes, forming the basis for exploring spatial dimensions of politics. | [*Politics*](https://www.amazon.com/Global-Politics-Ben-Whitham/dp/1350328413) | [Introduction to Political Philosophy](https://oyc.yale.edu/political-science/plsc-114) |
+## How to use this curriculum
 
-## Core Political Geography
+### Core Sections
 
-| Subject | Why study? | Book | Online Course |
-| --- | --- | --- | --- |
-| Human Geography | Examines human-environment interactions and cultural landscapes, crucial for understanding population distributions and their political implications. | [*The Cultural Landscape: An Introduction to Human Geography*](https://www.amazon.com/Cultural-Landscape-Introduction-Human-Geography/dp/0135204313) | [Human Geography Lecture Series](https://www.youtube.com/watch?v=qe9r4OT5SSU) |
-| Cartography and Geographic Information Systems (GIS) | Teaches mapping techniques and spatial data analysis, enabling practical visualization of political boundaries and trends. | [*Cartography: Visualization of Spatial Data*](https://www.amazon.com/Cartography-Visualization-Geospatial-Data-Fourth/dp/1138613959) | [Geographic Information System (GIS) Tutorial](https://ocw.mit.edu/courses/res-str-001-geographic-information-system-gis-tutorial-january-iap-2022/) |
-| World Regional Geography | Surveys global regions and their unique geographic features, providing context for comparative political analysis across continents. | [*Fundamentals of World Regional Geography*](https://www.amazon.com/Fundamentals-World-Regional-Geography-Joseph/dp/1305578260) | [World Regional Geography Lectures Playlist](https://www.youtube.com/playlist?list=PLZKcAeoj7_LLC0apVVHfHrq9ewatFUdBy) |
-| Political Geography | Explores the spatial organization of political entities, such as states and territories, to analyze power distributions. | [*An Introduction to Political Geography: Space, Place and Politics*](https://www.amazon.com/Introduction-Political-Geography-Space-Politics/dp/0415457963) | [Political Geography Lecture Series](https://www.youtube.com/playlist?list=PLmHQ58g3psJvAapPxTu85NOELWPJw_Y4b) |
-| Geopolitics | Investigates how geography shapes international strategies and conflicts, bridging theory and real-world power dynamics. | [*Geopolitics: A Very Short Introduction*](https://www.amazon.com/Geopolitics-Very-Short-Introduction-Introductions/dp/0198830769) | [Understanding Geopolitics](https://alison.com/course/understanding-geopolitics) |
-| International Relations | Analyzes global interactions between states, including alliances and diplomacy, with a spatial lens on territorial influences. | [*The Globalisation of World Politics*](https://www.amazon.com/Globalisation-World-Politics-Introduction-International/dp/0198825544) | [Introduction to International Relations](https://ocw.mit.edu/courses/17-41-introduction-to-international-relations-spring-2023/) |
-| Comparative Politics | Compares political systems across countries, highlighting how geographic factors affect governance and policy. | [*Essentials of Comparative Politics*](https://www.amazon.com/Essentials-Comparative-Politics-Patrick-ONeil/dp/0393532771) | [Comparative Politics ...made easy](https://www.youtube.com/playlist?list=PLsUEDhdw74mLr96qXn2b0kVmEaqONCC6T) |
-| Economic Geography | Studies the spatial aspects of economic activities, revealing how resources and trade influence political stability and inequality. | [*Economic Geography: A Contemporary Introduction*](https://www.amazon.com/Economic-Geography-Contemporary-Introduction-Neil/dp/1119389550) | [Economic Geography Lectures](https://www.youtube.com/playlist?list=PLmHQ58g3psJsuJSj_f8nGopUdyovYYqNT) |
+Study these first, in this order:
 
-## Advanced Political Geography
+**I. Foundations: Spatial Thinking and Political Basics**: Start here. This part teaches you how to think spatially and introduces the most important political ideas you will use throughout the entire curriculum.
 
-### Geopolitics and International Security
+**II. Maps, Space, and Territorial Representation**: Next, learn how maps work, how space is represented, and the basics of geographic information systems. These skills are used in almost every later topic.
 
-| Subject | Why study? | Book | Online Course |
-| --- | --- | --- | --- |
-| Advanced Geopolitics | Deepens analysis of geographic determinants in global strategy, preparing for complex international scenarios. | [*The Geopolitics Reader*](https://www.amazon.com/Geopolitics-Reader-Simon-Dalby/dp/0415341485) | Covered in [Understanding Geopolitics](https://alison.com/course/understanding-geopolitics) |
-| Territorial Conflicts | Examines disputes over land and borders, fostering skills in conflict resolution and spatial negotiation. | [*Enduring Territorial Disputes*](https://www.amazon.com/Enduring-Territorial-Disputes-Strategies-International/dp/0820339466) |  |
-| Global Governance | Investigates multinational institutions and their role in managing spatial-political issues like security. | [*The Politics of Global Governance*](https://www.amazon.com/Politics-Global-Governance-International-Interdependent/dp/1626372322) | [International Affairs: Global Governance](https://www.futurelearn.com/courses/global-governance) |
+**III. Core Political Geography**: This is the heart of the discipline. Study the main concepts, theories, and ways political geographers think about states, territory, and power.
 
-### Electoral and Political Boundaries
+**V. Geopolitics and Global Power**: Finish the core by understanding how political geography explains power relations, conflict, and strategy at the international scale.
 
-| Subject | Why study? | Book | Online Course |
-| --- | --- | --- | --- |
-| Electoral Geography | Analyzes voting patterns and spatial influences on elections, essential for understanding democratic processes. | [*Revitalizing Electoral Geography*](https://www.amazon.com/Revitalizing-Electoral-Geography-Jonathan-Leib/dp/1409410722) | [Geography of United States Elections Lecture Collection](https://www.youtube.com/playlist?list=PLBC60989205348505) |
-| Border Studies | Explores the politics of boundaries, including migration and sovereignty, to address identity and division. | [*A Companion to Border Studies*](https://www.amazon.com/Companion-Border-Studies-Thomas-Wilson/dp/1405198931) |  |
-| Nationalism | Investigates how national identities form and manifest spatially, linking to political mobilization and conflict. | [*Imagined Communities: Reflections on the Origin and Spread of Nationalism*](https://www.amazon.com/Imagined-Communities-Reflections-Origin-Nationalism/dp/1784786756) | [Nationalism, Self-determination and Secession](https://www.open.edu/openlearn/society-politics-law/politics/nationalism-self-determination-and-secession/content-section-0) |
+### Specialization Tracks
 
-### Environmental Political Geography
+The remaining sections are optional deeper explorations. You do **not** need to study all of them. Pick 1–3 tracks that interest you most or match your goals:
 
-| Subject | Why study? | Book | Online Course |
-| --- | --- | --- | --- |
-| Environmental Politics | Examines political responses to environmental issues, emphasizing spatial equity and policy. | [*The Oxford Handbook of Environmental Political Theory*](https://www.amazon.com/Oxford-Handbook-Environmental-Political-Handbooks/dp/0199685274) | [Environmental Politics and Law](https://oyc.yale.edu/environmental-studies/evst-255) |
-| Resource Geography | Studies the distribution and politics of natural resources, critical for analyzing scarcity and power. | [*Economic Geography: A Contemporary Introduction*](https://www.amazon.com/Economic-Geography-Contemporary-Introduction-Neil/dp/1119389550) | Covered in [Economic Geography Lectures](https://www.youtube.com/playlist?list=PLmHQ58g3psJsuJSj_f8nGopUdyovYYqNT) |
-| Climate Change Geography | Analyzes spatial impacts of climate change on politics, including adaptation and geopolitical shifts. | [*Earth's Climate: Past and Future*](https://archive.org/details/earthsclimatepas03edrudd) | [Climate Change: Challenges and Solutions](https://www.futurelearn.com/courses/climate-change-challenges-and-solutions) |
+- **IV. Borders, Nations, and Identity**: Focuses on how boundaries are created, maintained, and experienced, and how national identities form.
+- **VI. Political Economy and Resources**: Explores the geography of economic systems, natural resources, and environmental conflicts.
+- **VII. Electoral and Population Geography**: Examines how space shapes elections, voting behavior, population movements, and demographic power.
+- **VIII. Environmental and Climate Political Geography**: Looks at the political dimensions of environmental issues and global climate change.
 
-## Capstone
+## I. Foundations: Spatial Thinking and Political Basics
 
-Design and execute a research project applying political geography concepts (e.g., map and analyze a geopolitical conflict, electoral districting, or environmental resource dispute). Include a 20–30 page report with spatial analysis (e.g., using GIS tools from core studies), case studies, and policy recommendations. Aim for 100–200 hours total, demonstrating mastery through original insight.
+| Subject | Resource(s) |
+| --- | --- |
+| Spatial Thinking for Social Sciences | [Spatial Thinking in the Social Sciences (NC State Libraries)](https://www.lib.ncsu.edu/) |
+| Introduction to Human Geography | [The Cultural Landscape (James M. Rubenstein) – Open Edition](https://archive.org/details/culturallandscap0012rube)<br>[Human Geography – CrashCourse](https://www.youtube.com/playlist?list=PL8dPuuaLjXtO85Sl24rSiVQ93q7vcntNF) |
+| Core Political Concepts | [Introduction to Political Science – Open University](https://www.open.edu/openlearn/society/free-courses)<br>[Stanford Encyclopedia of Philosophy (state, sovereignty entries only)](https://plato.stanford.edu/entries/sovereignty/) |
 
+## II. Maps, Space, and Territorial Representation
+
+| Subject | Resource(s) |
+| --- | --- |
+| Cartography and Map Literacy | [Elements of Cartography – Open Geography Education](https://geography.wisc.edu/cartography/)<br>[Map Projections and Political Maps – University of Wisconsin](https://www.sco.wisc.edu/tag/map-projections/) |
+| Geographic Information Systems (Conceptual Level) | [MIT OpenCourseWare – GIS Tutorial (Conceptual Sections Only)](https://ocw.mit.edu/courses/res-str-001-geographic-information-system-gis-tutorial-january-iap-2022/) |
+
+## III. Core Political Geography
+
+| Subject | Resource(s) |
+| --- | --- |
+| Political Geography (Core Field) | [Political Geography: Space, Place and Politics – Archive.org](https://archive.org/details/introductiontopo0000jone_a9f6)<br>[Political Geography – University of Delhi](https://www.du.ac.in/) |
+| The State, Territory, and Sovereignty | [The State and Territory – Open University](https://www.open.edu/openlearn/society/free-courses)<br>[Sovereignty (Stanford Encyclopedia of Philosophy)](https://plato.stanford.edu/entries/sovereignty/) |
+
+## IV. Borders, Nations, and Identity
+
+| Subject | Resource(s) |
+| --- | --- |
+| Border Studies | [Borders and Bordering – Open University](https://www.open.edu/openlearn/society/free-courses)<br>[Journal of Borderlands Studies (selected open articles)](https://www.tandfonline.com/loi/rjbs20) |
+| Nationalism and Political Identity | [Imagined Communities – Benedict Anderson](https://archive.org/details/imaginedcommunit00ande)<br>[Nationalism, Self-Determination and Secession – OpenLearn](https://www.open.edu/openlearn/society-politics-law/nationalism-self-determination-and-secession/content-section-0) |
+
+## V. Geopolitics and Global Power
+
+| Subject | Resource(s) |
+| --- | --- |
+| Classical and Critical Geopolitics | [The Geopolitics Reader – Archive.org](https://archive.org/details/geopoliticsreade0000unse)<br>[Critical Geopolitics – University of Exeter](https://www.exeter.ac.uk/) |
+| International Relations (Spatial Perspective)| [MIT OCW – Introduction to International Relations](https://ocw.mit.edu/courses/political-science/)<br>[IR Theory (LSE Public Lectures)](https://www.lse.ac.uk/international-relations) |
+
+## VI. Political Economy and Resources
+
+| Subject | Resource(s) |
+| --- | --- |
+| Economic Geography | [Economic Geography – Open University](https://www.open.edu/openlearn/society/free-courses)<br>[Economic Geography – University of Toronto](https://www.geog.utoronto.ca/) |
+| Resource Politics and Political Ecology | [Political Ecology: A Critical Introduction – Archive.org](https://archive.org/details/politicalecology0000robe)<br>[Political Ecology – UC Berkeley](https://geography.berkeley.edu/) |
+
+## VII. Electoral and Population Geography
+
+| Subject | Resource(s) |
+| --- | --- |
+| Electoral Geography | [Electoral Geography – London School of Economics](https://www.lse.ac.uk/)<br>[Spatial Voting Patterns – ESRC UK](https://esrc.ukri.org/) |
+| Population, Migration, and Power | [Migration and Borders – Open University](https://www.open.edu/openlearn/society/free-courses)<br>[UN Migration Data Portal (tutorials)](https://www.migrationdataportal.org/) |
+
+## VIII. Environmental and Climate Political Geography
+
+| Subject | Resource(s) |
+| --- | --- |
+| Environmental Politics | [Environmental Politics – Yale Open Courses](https://oyc.yale.edu/political-science)<br>[Environmental Justice – EPA Open Resources](https://www.epa.gov/environmentaljustice) |
+| Climate Change and Geopolitics | [Climate Change: Challenges and Solutions – FutureLearn](https://www.futurelearn.com/courses/climate-change-challenges-and-solutions)<br>[IPCC Summary for Policymakers (open access)](https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_SPM.pdf) |
 
 ## Congratulations
 
