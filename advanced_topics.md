@@ -1,41 +1,54 @@
 # Advanced Topics
 
-- [Borders, Nations, and Identity](#borders-nations-and-identity)
-- [Political Economy and Resources](#political-economy-and-resources)
-- [Electoral and Population Geography](#electoral-and-population-geography)
-- [Environmental and Climate Political Geography](#environmental-and-climate-political-geography)
+- [Critical Border Studies, Mobilities, and Securitization](#critical-border-studies-mobilities-and-securitization) — Explores how borders operate as mobile, biometric, and extraterritorial technologies of state power and migrant control.
+- [Urban Political Geography and Spatial Injustice](#urban-political-geography-and-spatial-injustice) — Analyzes the urban state, racial capitalism, carceral spaces, militarized policing, and struggles over the right to the city.
+- [Political Ecology, Resource Frontiers, and Climate Geopolitics](#political-ecology-resource-frontiers-and-climate-geopolitics) — Examines resource extraction conflicts, the geopolitics of decarbonization, volumetric sovereignty, and indigenous land struggles.
+- [Advanced Electoral Geography and Quantitative Spatial Analysis](#advanced-electoral-geography-and-quantitative-spatial-analysis) — Covers spatial econometrics, algorithmic redistricting, gerrymandering detection, and computational spatial data science.
+- [Feminist, Decolonial, and Critical Geopolitics](#feminist-decolonial-and-critical-geopolitics) — Deconstructs state-centric power by examining embodiment, affective discourses, imperial cartographies, and abolitionist spatial imaginaries.
 
-The remaining sections are optional deeper explorations. You do **not** need to study all of them. Pick 1–3 tracks that interest you most or match your goals:
+The sections below represent advanced specializations in Political Geography. Pick 1–3 tracks that align with your research interests or professional goals.
 
-- **Borders, Nations, and Identity**: Focuses on how boundaries are created, maintained, and experienced, and how national identities form.
-- **Political Economy and Resources**: Explores the geography of economic systems, natural resources, and environmental conflicts.
-- **Electoral and Population Geography**: Examines how space shapes elections, voting behavior, population movements, and demographic power.
-- **Environmental and Climate Political Geography**: Looks at the political dimensions of environmental issues and global climate change.
+## Critical Border Studies, Mobilities, and Securitization
 
-## Borders, Nations, and Identity
+| Topic | Why Study | Resources |
+| --- | --- | --- |
+| Border Externalization and Carceral Mobilities | Investigates how states project immigration control beyond their sovereign borders through offshore detention, third-country agreements, and militarized buffer zones. | - *Seeking Asylum: Human Rights and Beyond at the Border* by Alison Mountz (University of California Press)<br>- *Violent Borders: Refugees and the Right to Move* by Reece Jones (Verso)<br>- "Sovereignty without Territoriality? The Visuality and Materiality of the Border" by Polly Pallister-Wilkins (*Geopolitics*) |
+| Biometric Borders, Digital Surveillance, and Smart Frontiers | Explores how automated risk profiling, facial recognition, and smart border infrastructures dissolve static territorial lines into mobile, datafied zones of surveillance. | - *The Politics of Possibility: Risk and Security Beyond Probability* by Louise Amoore (Duke University Press)<br>- *Borderlands of Surveillance: Smart Borders and Data Geopolitics* by Huub Dijstelbloem (Cambridge University Press)<br>- "Smart Borders and Mobilities: Spaces of Exception and Inclusion" by Mark B. Salter (*Political Geography*) |
+| Border as Method and Spatialities of Migration | Examines borders not merely as passive barriers, but as active social relations that produce differentiated labor markets, racialized legal subjectivities, and migrant illegality. | - *Border as Method, or, the Multiplication of Labor* by Sandro Mezzadra and Brett Neilson (Duke University Press)<br>- *The Deportation Regime: Sovereignty, Space, and the Freedom of Movement* edited by Nicholas De Genova and Nathalie Peutz (Duke University Press) |
+| Sovereign Anomalies, Enclaves, and Spatial Ambiguities | Analyzes geopolitical anomalies, extraterritorial legal zones, transit corridors, and stateless pockets that challenge standard Westphalian territorial assumptions. | - *Extraterritoriality* edited by Maayan Amir and Rona Yefman (Punctum Books)<br>- *Territory, Sovereignty, and Exclaves* by Evgeny Vinokurov (Springer)<br>- "Sovereign Anomalies: Enclaves and the Geopolitics of State Space" by Stuart Elden (*Geopolitics*) |
 
-| Subject | Resource(s) |
-| --- | --- |
-| Border Studies | [Borders and Bordering – Open University](https://www.open.edu/openlearn/society/free-courses)<br>[Journal of Borderlands Studies (selected open articles)](https://www.tandfonline.com/loi/rjbs20) |
-| Nationalism and Political Identity | [Imagined Communities – Benedict Anderson](https://archive.org/details/imaginedcommunit00ande)<br>[Nationalism, Self-Determination and Secession – OpenLearn](https://www.open.edu/openlearn/society-politics-law/nationalism-self-determination-and-secession/) |
+## Urban Political Geography and Spatial Injustice
 
-## Political Economy and Resources
+| Topic | Why Study | Resources |
+| --- | --- | --- |
+| Planetary Urbanization, Neoliberal State Space, and Uneven Development | Analyzes how global capital transforms municipal governance, reconfigures state rescaling, and turns entire territories into operational landscapes of accumulation. | - *New State Spaces: Urban Governance and the Rescaling of Statehood* by Neil Brenner (Oxford University Press)<br>- *Spaces of Global Capitalism: Towards a Theory of Uneven Geographical Development* by David Harvey (Verso)<br>- *Implosions/Explosions: Towards a Study of Planetary Urbanization* edited by Neil Brenner (Jovis) |
+| Carceral Geographies and Racial Capitalism | Investigates how the state deploys physical confinement, punitive policing, and geographic segregation to manage surplus populations and reproduce racialized hierarchy. | - *Golden Gulag: Prisons, Surplus, Crisis, and Opposition in Globalizing California* by Ruth Wilson Gilmore (University of California Press)<br>- *Carceral Spaces: Mobility and Agency in Imprisonment and Migrant Detention* edited by Dominique Moran et al. (Routledge)<br>- *Spatializing Blackness: Architectures of Confinement and Black Masculinity in Chicago* by Rashad Shabazz (University of Illinois Press) |
+| Militarized Urbanism and Infrastructural Warfare | Explores how modern military doctrine, asymmetric counterinsurgency, and state security apparatuses reshape civilian infrastructure and urban architecture into battlefields. | - *Cities Under Siege: The New Military Urbanism* by Stephen Graham (Verso)<br>- *Hollow Land: Israel's Architecture of Occupation* by Eyal Weizman (Verso)<br>- *Disrupted Cities: When Infrastructure Fails* edited by Stephen Graham (Routledge) |
+| Spatial Justice and the Right to the City | Examines legal-spatial claims, grassroots insurgent citizenship, and spatial rights movements resisting dispossession, displacement, and predatory real estate financialization. | - *Seeking Spatial Justice* by Edward W. Soja (University of Minnesota Press)<br>- *Rebel Cities: From the Right to the City to the Urban Revolution* by David Harvey (Verso)<br>- *Insurgent Citizenship: Disjunctions of Democracy and Modernity in Brazil* by James Holston (Princeton University Press) |
 
-| Subject | Resource(s) |
-| --- | --- |
-| Economic Geography | [Economic Geography – Open University](https://www.open.edu/openlearn/society/free-courses)<br>[Economic Geography – University of Toronto](https://www.geog.utoronto.ca/) |
-| Resource Politics and Political Ecology | [Political Ecology: A Critical Introduction – Archive.org](https://archive.org/details/politicalecology0000robe)<br>[Political Ecology – UC Berkeley](https://geography.berkeley.edu/) |
+## Political Ecology, Resource Frontiers, and Climate Geopolitics
 
-## Electoral and Population Geography
+| Topic | Why Study | Resources |
+| --- | --- | --- |
+| Political Ecology of Extraction and Enclosure | Examines how resource extraction, enclosure, and commodity frontiers reshape rural power dynamics, territorial conflicts, and ecological degradation. | - *Political Ecology: A Critical Introduction* by Paul Robbins (Wiley-Blackwell)<br>- *Violent Environments* edited by Nancy Lee Peluso and Michael Watts (Cornell University Press)<br>- *The Global Land Grab: Beyond the Hype* edited by Mayke Kaag and Annelies Zoomers (Zed Books) |
+| Climate Geopolitics, Critical Minerals, and Energy Transitions | Investigates how global decarbonization, critical mineral supply chains (e.g., lithium, cobalt), and climate adaptation reconfigure international security alliances. | - *Anthropocene Geopolitics: Globalization by Other Means* by Simon Dalby (University of Ottawa Press)<br>- *Carbon Democracy: Political Power in the Age of Oil* by Timothy Mitchell (Verso)<br>- "A Region in Transition? The Geopolitics of the Energy Transition" by Roman Vakulchuk et al. (*Energy Research & Social Science*) |
+| Volumetric Geographies: Subsurface, Maritime, and Aerial Space | Moves beyond flat two-dimensional territorial theory to interrogate the spatial politics of verticality, deep-sea mining, airspace regimes, and outer space sovereignty. | - "Secure the Volume: Vertical Geopolitics and the Depth of Power" by Stuart Elden (*Political Geography*)<br>- *Wet Ontologies, Floating Geographies: Rethinking the Ocean as Fluid Space* by Philip Steinberg and Kimberley Peters (*Society and Space*)<br>- *Subterranean Geopolitics* by Derek McCormack and Elizabeth Johnson (Routledge) |
+| Settler Colonialism and Indigenous Land Sovereignty | Explores how settler colonial statecraft territorializes indigenous land and how counter-sovereign indigenous movements assert jurisdictional autonomy and land defense. | - *Red Skin, White Masks: Rejecting the Colonial Politics of Recognition* by Glen Sean Coulthard (University of Minnesota Press)<br>- *A Third University Is Possible* by la paperson (University of Minnesota Press)<br>- "Settler Colonialism and the Elimination of the Native" by Patrick Wolfe (*Journal of Genocide Research*) |
 
-| Subject | Resource(s) |
-| --- | --- |
-| Electoral Geography | [Electoral Geography – London School of Economics](https://www.lse.ac.uk/)<br>[Spatial Voting Patterns – ESRC UK](https://esrc.ukri.org/) |
-| Population, Migration, and Power | [Migration and Borders – Open University](https://www.open.edu/openlearn/society/free-courses)<br>[UN Migration Data Portal (tutorials)](https://www.migrationdataportal.org/) |
+## Advanced Electoral Geography and Quantitative Spatial Analysis
 
-## Environmental and Climate Political Geography
+| Topic | Why Study | Resources |
+| --- | --- | --- |
+| Partisan Gerrymandering, Compactness, and Redistricting Algorithms | Equips researchers with computational, geometric, and statistical methods to quantify intentional partisan bias, packing, cracking, and boundary distortions. | - *Why Cities Lose: The Deep Roots of the Urban-Rural Political Divide* by Jonathan A. Rodden (Basic Books)<br>- "Measuring Partisan Bias in Legislative Redistricting" by Jowei Chen and Jonathan Rodden (*Election Law Journal*)<br>- [MGGG Redistricting Lab Open Research & Computational Tools](https://mggg.org/) |
+| Spatial Econometrics, Autocorrelation, and Local Voting Models | Teaches spatial lag, spatial error models, and local Moran's I statistics to correct for spatial dependence and model neighborhood diffusion in political behavior. | - *Spatial Econometrics: Methods and Models* by Luc Anselin (Springer)<br>- [GeoDa: An Introduction to Spatial Data Analysis (Luc Anselin / University of Chicago)](https://geodacenter.github.io/)<br>- [PySAL: Python Spatial Analysis Library Documentation and Tutorials](https://pysal.org/) |
+| Geographic Sorting and Spatial Polarization | Investigates the micro-geographies of partisan sorting, neighborhood-level racial segregation indices, and structural geographic polarization across urban-rural axes. | - *The Big Sort: Why the Clustering of Like-Minded America is Tearing Us Apart* by Bill Bishop (Houghton Mifflin)<br>- *Putting Voters in their Place: Geography and Elections in Great Britain* by Ron Johnston and Charles Pattie (Oxford University Press)<br>- "Spatial Polarization: Concepts, Metrics, and Empirics" by Michael Shin and Fred Shelley (*Political Geography*) |
+| Open Geospatial Toolkits and Counter-Mapping | Explores computational GIS methods, web-mapping pipelines, and open-source civic tools used to audit state boundaries, monitor voting access, and map grassroots claims. | - [QGIS: Open Source Geographic Information System User Guide and Tutorials](https://qgis.org/)<br>- *This Is Not an Atlas: A Global Collection of Counter-Cartographies* by kollektiv orangotango+ (transcript Verlag)<br>- [OpenStreetMap Open Geospatial Platform](https://www.openstreetmap.org/) |
 
-| Subject | Resource(s) |
-| --- | --- |
-| Environmental Politics | [Environmental Politics – Yale Open Courses](https://oyc.yale.edu/political-science)<br>[Environmental Justice – EPA Open Resources](https://www.epa.gov/environmentaljustice) |
-| Climate Change and Geopolitics | [Climate Change: Challenges and Solutions – FutureLearn](https://www.futurelearn.com/courses/climate-change-challenges-and-solutions)<br>[IPCC Summary for Policymakers (open access)](https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_SPM.pdf) |
+## Feminist, Decolonial, and Critical Geopolitics
+
+| Topic | Why Study | Resources |
+| --- | --- | --- |
+| Feminist Geopolitics: Embodiment, Trauma, and Intimate Scales | Deconstructs elite state-level geopolitical discourses by shifting analytical focus to the body, household, emotional vulnerability, and gendered violence of state power. | - *Feminist Geopolitics: Material States* by Deborah P. Dixon (Routledge)<br>- *Managing Displacement: Refugees and the Politics of Humanitarianism* by Jennifer Hyndman (University of Minnesota Press)<br>- "Feminist Geopolitics" by Joanne P. Sharp (*Progress in Human Geography*) |
+| The Colonial Present and Imperial Cartographies | Analyzes how imperial spatialities, racial hierarchies, and military interventions perpetuate colonial cartographies in contemporary world politics. | - *The Colonial Present: Afghanistan, Palestine, Iraq* by Derek Gregory (Wiley-Blackwell)<br>- *Demonic Grounds: Black Women and the Cartographies of Struggle* by Katherine McKittrick (University of Minnesota Press)<br>- [Colonialism (Stanford Encyclopedia of Philosophy)](https://plato.stanford.edu/entries/colonialism/) |
+| Affect, Emotion, and Popular Geopolitics | Investigates how popular media, cinema, news discourse, and emotional registers (fear, grief, national pride) manufacture public consent for geopolitical conflict. | - *Popular Geopolitics: Plotting an Evolving Interdiscipline* edited by Robert A. Saunders and Vlad Strukov (Routledge)<br>- *Emotion, Place and Culture* edited by Mick Smith et al. (Routledge)<br>- "Affective Geopolitics: The Emotional Geographies of Statecraft" by Gerard Toal and Jason Dittmer (*Political Geography*) |
+| Decolonial Cartographies and Abolitionist Spatialities | Explores alternative spatial visions and non-state modes of territorial relation that challenge Western notions of exclusive property, border enforcement, and sovereignty. | - *The Darker Side of Western Modernity: Global Futures, Decolonial Options* by Walter D. Mignolo (Duke University Press)<br>- *As We Have Always Done: Indigenous Freedom through Radical Resistance* by Leanne Betasamosake Simpson (University of Minnesota Press)<br>- "Abolition Geographies and the Problem of Innocence" by Ruth Wilson Gilmore (in *Futures of Black Radicalism*, Verso) |

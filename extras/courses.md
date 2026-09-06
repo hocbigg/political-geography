@@ -1,47 +1,26 @@
 # Great Courses
 
-This is a list of high-quality courses that, for one reason or another, didn't make it into the curriculum.
-The most common reasons are that the course isn't available often enough,
-or that there was an alternative that fit better into the curriculum.
+This is a curated directory of high-signal university lectures, OpenCourseWare (OCW) modules, and specialized online courses that build deep intuition and strong spatial models for Political Geography.
 
-## Geopolitics and International Security
+## Geopolitics, Grand Strategy, and Global Power
 
-Courses | Duration | Effort
-:-- | :--: | :--:
-[Navigating Geopolitics in the 21st Century](https://alison.com/course/navigating-geopolitics-in-the-21st-century) | - | -
-[Politics and Economics of International Energy](https://www.coursera.org/learn/global-energy) (free audit) | 8 weeks | 3-5 hours/week
-[The Geopolitics and Geoeconomics of Global Energy](https://ocw.mit.edu/courses/17-906-reading-seminar-in-social-science-the-geopolitics-and-geoeconomics-of-global-energy-spring-2007/) | - | -
+- [Geography of International Affairs (Penn State Open Educational Resources / Melissa Y. Rock)](https://www.e-education.psu.edu/geog128/)
+- [Global Diplomacy: Diplomacy in the Modern World (Coursera / SOAS University of London / Dr. J. Simon Rofe)](https://www.coursera.org/learn/global-diplomacy)
+- [Introduction to International Relations (MIT OpenCourseWare / Prof. Kenneth Oye)](https://ocw.mit.edu/courses/17-410-introduction-to-international-relations-spring-2015/)
 
-## Electoral and Political Boundaries
+## Territory, Borders, and Conflict Studies
 
-Courses | Duration | Effort
-:-- | :--: | :--:
-[Nationalism, Self-determination and Secession](https://www.open.edu/openlearn/society-politics-law/politics/nationalism-self-determination-and-secession/content-section-0) | 8 hours | -
-[Intercultural Studies: Crossing Borders](https://www.futurelearn.com/courses/intercultural-studies-crossing-borders) | 3 weeks | 3 hours/week
+- [Territorial Conflict (MIT OpenCourseWare / Prof. Monica Duffy Toft)](https://ocw.mit.edu/courses/17-436-territorial-conflict-fall-2004/)
+- [Nationalism, Self-Determination and Secession (OpenLearn / The Open University)](https://www.open.edu/openlearn/society-politics-law/politics/nationalism-self-determination-and-secession/content-section-0)
+- [Ethnic and National Identity (MIT OpenCourseWare / Anthropology)](https://ocw.mit.edu/courses/21a-226-ethnic-and-national-identity-fall-2011/)
 
-## Environmental Political Geography
+## Political Economy of Energy, Resources, and Climate
 
-Courses | Duration | Effort
-:-- | :--: | :--:
-[Global Studies: Risks in International Relations](https://www.futurelearn.com/courses/global-studies-risks-threats) | 4 weeks | 3 hours/week
+- [Politics and Economics of International Energy (Coursera / Sciences Po / Prof. Giacomo Luciani)](https://www.coursera.org/learn/global-energy)
+- [The Geopolitics and Geoeconomics of Global Energy (MIT OpenCourseWare / Prof. Flynt Leverett)](https://ocw.mit.edu/courses/17-906-reading-seminar-in-social-science-the-geopolitics-and-geoeconomics-of-global-energy-spring-2007/)
+- [Urban Energy Systems and Policy (MIT OpenCourseWare / Prof. David Hsu)](https://ocw.mit.edu/courses/11-165j-urban-energy-systems-and-policy-fall-2022/)
 
-## General/Overlapping
+## Spatial Theory, Critical Geography, and Methods
 
-Courses | Duration | Effort
-:-- | :--: | :--:
-[Territorial Conflict](https://ocw.mit.edu/courses/17-436-territorial-conflict-fall-2004/) | - | -
-[International Relations](https://alison.com/course/international-relations) | - | -
-
-## Online Learning - Great Courses
-
-Courses | Duration | Effort
-:-- | :--: | :--:
-[Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn) | 4 weeks | 2 hours/week
-[Mindshift](https://www.coursera.org/learn/mindshift) | 4 weeks | 2 hours/week
-[Powersearching with Google](https://www.edx.org/learn/google-power-searching/google-power-searching-with-google) | 3 weeks | 4-6 hours/week
-
-## Other
-
-- [Penn State GEOG 128: Geography of International Affairs](https://www.e-education.psu.edu/geog128/)
-- [MIT OpenCourseWare Political Science Courses](https://ocw.mit.edu/courses/political-science/) (various IR and related)
-- [FutureLearn Geopolitics Courses Collection](https://www.futurelearn.com/subjects/politics-and-society-courses/geopolitics)
+- [Reading Marx's Capital with David Harvey (Official Course Repository / CUNY Graduate Center / Prof. David Harvey)](http://davidharvey.org/reading-capital/)
+- [Geographic Information System (GIS) Tutorial (MIT OpenCourseWare)](https://ocw.mit.edu/courses/res-str-001-geographic-information-system-gis-tutorial-january-iap-2022/)
