@@ -25,7 +25,6 @@ Once you have worked through these foundational subjects, you can branch out int
 - Explore specialized subfields — such as carceral geography, critical border regimes, and political ecology — in [Advanced Topics](advanced_topics.md).
 - Engage with milestone monographs and field-shaping essays in [Readings](extras/readings.md).
 - Follow structured university video lectures and deep-dive audio series in [Courses](extras/courses.md).
-- Put these spatial concepts into practice through applied case studies and investigative mapping in [Projects](projects.md).
 
 ### Communities
 
