@@ -1,130 +1,366 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
 
-<title>Advanced Topics</title>
-<link rel="stylesheet" href="/political-geography/style.css">
-<meta name="description" content="">
+  <title>Advanced Topics in Political Geography</title>
+  <meta name="description" content="Advanced Topics in Political Geography curriculum by hocbigg.">
+  <meta name="author" content="hocbigg">
 
-<link rel="canonical" href="https://hocbigg.github.io/political-geography/">
+  <link rel="canonical" href="https://hocbigg.github.io/political-geography/advanced_topics.html">
+  <meta property="og:title" content="Advanced Topics in Political Geography">
+  <meta property="og:description" content="Advanced Topics in Political Geography curriculum by hocbigg.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hocbigg.github.io/political-geography/advanced_topics.html">
+  <link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
 
-<meta property="og:title" content="Advanced Topics">
-<meta property="og:description" content="">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://hocbigg.github.io/political-geography/">
-<meta name="author" content="hocbigg">
-<link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
+  <style>
+:root {
+  color-scheme: light dark;
+
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #595959;
+  --border: #e0e0e0;
+  --th-bg: #f6f8fa;
+  --code-bg: #f4f4f4;
+  --link: #0969da;
+  --focus-ring: #0969da;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117;
+    --fg: #e6edf3;
+    --muted: #8b949e;
+    --border: #30363d;
+    --th-bg: #161b22;
+    --code-bg: #161b22;
+    --link: #58a6ff;
+    --focus-ring: #58a6ff;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1.5rem auto;
+  max-width: 60rem;
+  padding: 0 1rem 3.5rem;
+  background-color: var(--bg);
+  color: var(--fg);
+  font: 1.15rem/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  
+  /* Cú pháp hiện đại thay thế cho word-wrap */
+  overflow-wrap: break-word;
+}
+
+.site-header {
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.5rem 1.25rem;
+  font-size: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+nav a:hover, 
+nav a:focus-visible {
+  color: var(--fg);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+nav .nav-brand {
+  color: var(--fg);
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.skip-link {
+  position: absolute;
+  transform: translateY(-150%);
+  left: 1rem;
+  background: var(--fg);
+  color: var(--bg);
+  padding: 0.5rem 1rem;
+  z-index: 100;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: transform 0.2s ease;
+}
+
+.skip-link:focus {
+  transform: translateY(1rem);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: var(--fg);
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--border);
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1.15rem;
+}
+
+h6 {
+  font-size: 1rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+p, ul, ol, blockquote, table {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+li > ul,
+li > ol {
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+a:has(img) {
+  text-decoration: none;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.page-header .page-subtitle {
+  color: var(--muted);
+  font-size: 1.15rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page-header img {
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.875em;
+  background-color: var(--code-bg);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+
+pre {
+  background-color: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+  tab-size: 2;
+}
+
+pre code {
+  background: transparent;
+  padding: 0;
+  border: none;
+  font-size: 0.9rem;
+  border-radius: 0;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.6rem 0.75rem;
+  vertical-align: top;
+}
+
+th {
+  background-color: var(--th-bg);
+  font-weight: 600;
+}
+
+blockquote {
+  margin-inline: 0;
+  border-left: 4px solid var(--border);
+  padding-left: 1rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media print {
+  body {
+    max-width: none;
+    color: #000;
+    background: #fff;
+  }
+  .skip-link, nav {
+    display: none;
+  }
+}
+  </style>
 </head>
-
 <body>
 
-<nav>
-<a href="/">Hocbigg</a>
-<a href="/political-geography/">Political-Geography</a>
-<a href="/political-geography/advanced_topics.html">Advanced Topics</a>
-<a href="/political-geography/extras/courses.html">Extra Courses</a>
-<a href="/political-geography/extras/readings.html">Extra Reading</a>
-<a href="https://github.com/hocbigg/political-geography/" target="_blank">View on Github</a>
-</nav>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
 
-<main>
-<article>
+  <header class="site-header">
+    <nav aria-label="Main Navigation">
+    <ul>
+      <li><a href="https://hocbigg.github.io/" class="nav-brand">Hocbigg</a></li>
+      <li><a href="/political-geography/">Political Geography</a></li>
+      <li><a href="/political-geography/advanced_topics.html">Advanced Topics</a></li>
+      <li><a href="/political-geography/extras/readings.html">Extra Readings</a></li>
+      <li><a href="/political-geography/extras/courses.html">Extra Courses</a></li>
+      <li><a href="https://github.com/hocbigg/political-geography" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in new tab)</span></a></li>
+    </ul>
+    </nav>
+  </header>
 
-<h1 id="advanced-topics">Advanced Topics</h1>
+  <main id="main-content">
+    <article>
+
+<h1 id="advanced-topics-in-political-geography">Advanced Topics in Political Geography</h1>
 <ul>
-<li><a href="#borders-nations-and-identity">Borders, Nations, and Identity</a></li>
-<li><a href="#political-economy-and-resources">Political Economy and Resources</a></li>
-<li><a href="#electoral-and-population-geography">Electoral and Population Geography</a></li>
-<li><a href="#environmental-and-climate-political-geography">Environmental and Climate Political Geography</a></li>
+<li><a href="#critical-border-studies-mobilities-and-securitization">Critical Border Studies, Mobilities, and Securitization</a> - Explores how borders operate as mobile, biometric, and extraterritorial technologies of state power, racialized labor sorting, and migrant control.</li>
+<li><a href="#urban-political-geography-and-spatial-injustice">Urban Political Geography and Spatial Injustice</a> - Analyzes how state rescaling, racial capitalism, militarized policing, and infrastructure shape the contemporary metropolis and struggles for the right to the city.</li>
+<li><a href="#political-ecology-resource-frontiers-and-climate-geopolitics">Political Ecology, Resource Frontiers, and Climate Geopolitics</a> - Interrogates the territorial dynamics of resource extraction, climate disruption, vertical volumetric sovereignty, and indigenous land defense.</li>
+<li><a href="#advanced-electoral-geography-and-quantitative-spatial-analysis">Advanced Electoral Geography and Quantitative Spatial Analysis</a> - Equips learners with computational, statistical, and geospatial methods to detect gerrymandering, model spatial voting patterns, and execute counter-cartographies.</li>
+<li><a href="#feminist-decolonial-and-critical-geopolitics">Feminist, Decolonial, and Critical Geopolitics</a> - Deconstructs elite state-centric geopolitical paradigms through intimate bodily scales, imperial cartographic legacies, and abolitionist spatial alternatives.</li>
 </ul>
-<p>The remaining sections are optional deeper explorations. You do <strong>not</strong> need to study all of them. Pick 1–3 tracks that interest you most or match your goals:</p>
-<ul>
-<li><strong>Borders, Nations, and Identity</strong>: Focuses on how boundaries are created, maintained, and experienced, and how national identities form.</li>
-<li><strong>Political Economy and Resources</strong>: Explores the geography of economic systems, natural resources, and environmental conflicts.</li>
-<li><strong>Electoral and Population Geography</strong>: Examines how space shapes elections, voting behavior, population movements, and demographic power.</li>
-<li><strong>Environmental and Climate Political Geography</strong>: Looks at the political dimensions of environmental issues and global climate change.</li>
-</ul>
-<h2 id="borders-nations-and-identity">Borders, Nations, and Identity</h2>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Resource(s)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Border Studies</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.open.edu/openlearn/society/free-courses">Borders and Bordering – Open University</a><br><a target="_blank" rel="noopener noreferrer" href="https://www.tandfonline.com/loi/rjbs20">Journal of Borderlands Studies (selected open articles)</a></td>
-</tr>
-<tr>
-<td>Nationalism and Political Identity</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/imaginedcommunit00ande">Imagined Communities – Benedict Anderson</a><br><a target="_blank" rel="noopener noreferrer" href="https://www.open.edu/openlearn/society-politics-law/nationalism-self-determination-and-secession/">Nationalism, Self-Determination and Secession – OpenLearn</a></td>
-</tr>
-</tbody>
-</table>
-<h2 id="political-economy-and-resources">Political Economy and Resources</h2>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Resource(s)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Economic Geography</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.open.edu/openlearn/society/free-courses">Economic Geography – Open University</a><br><a target="_blank" rel="noopener noreferrer" href="https://www.geog.utoronto.ca/">Economic Geography – University of Toronto</a></td>
-</tr>
-<tr>
-<td>Resource Politics and Political Ecology</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/politicalecology0000robe">Political Ecology: A Critical Introduction – Archive.org</a><br><a target="_blank" rel="noopener noreferrer" href="https://geography.berkeley.edu/">Political Ecology – UC Berkeley</a></td>
-</tr>
-</tbody>
-</table>
-<h2 id="electoral-and-population-geography">Electoral and Population Geography</h2>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Resource(s)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Electoral Geography</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.lse.ac.uk/">Electoral Geography – London School of Economics</a><br><a target="_blank" rel="noopener noreferrer" href="https://esrc.ukri.org/">Spatial Voting Patterns – ESRC UK</a></td>
-</tr>
-<tr>
-<td>Population, Migration, and Power</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.open.edu/openlearn/society/free-courses">Migration and Borders – Open University</a><br><a target="_blank" rel="noopener noreferrer" href="https://www.migrationdataportal.org/">UN Migration Data Portal (tutorials)</a></td>
-</tr>
-</tbody>
-</table>
-<h2 id="environmental-and-climate-political-geography">Environmental and Climate Political Geography</h2>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Resource(s)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Environmental Politics</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://oyc.yale.edu/political-science">Environmental Politics – Yale Open Courses</a><br><a target="_blank" rel="noopener noreferrer" href="https://www.epa.gov/environmentaljustice">Environmental Justice – EPA Open Resources</a></td>
-</tr>
-<tr>
-<td>Climate Change and Geopolitics</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.futurelearn.com/courses/climate-change-challenges-and-solutions">Climate Change: Challenges and Solutions – FutureLearn</a><br><a target="_blank" rel="noopener noreferrer" href="https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_SPM.pdf">IPCC Summary for Policymakers (open access)</a></td>
-</tr>
-</tbody>
-</table>
-</article>
-</main>
+<p>The sections below represent advanced specializations in Political Geography. Pick 1–3 tracks that align with your research interests or practical goals.</p>
+<h2 id="critical-border-studies-mobilities-and-securitization">Critical Border Studies, Mobilities, and Securitization</h2>
+<p>Explores how borders operate as mobile, biometric, and extraterritorial technologies of state power, racialized labor sorting, and migrant control.</p>
+<p>Border Externalization and Offshore Detention: <a href="https://books.google.com/books?isbn=9780816697113" target="_blank" rel="noopener noreferrer">The Death of Asylum: Hidden Geographies of the Enforcement Archipelago (Alison Mountz, University of Minnesota Press)</a> - Investigates the global network of island detention facilities and extraterritorial zones designed to intercept and confine asylum seekers beyond national legal jurisdictions.</p>
+<p>Biometric Borders and Smart Frontiers: <a href="https://direct.mit.edu/books/oa-monograph/5155/Borders-as-InfrastructureThe-Technopolitics-of" target="_blank" rel="noopener noreferrer">Borders as Infrastructure: The Technopolitics of Border Control (Huub Dijstelbloem, MIT Press)</a> - An open-access investigation into how sensor networks, algorithms, and surveillance databases transform fixed territorial lines into mobile technopolitical infrastructures.</p>
+<p>Border as Method and Differential Inclusion: <a href="https://books.google.com/books?isbn=9780822355038" target="_blank" rel="noopener noreferrer">Border as Method, or, the Multiplication of Labor (Sandro Mezzadra &amp; Brett Neilson, Duke University Press)</a> - Establishes the border not as an edge of the nation-state, but as an active epistemic method and engine for producing differentiated labor markets under global capitalism.</p>
+<p>Extraterritoriality and Sovereign Anomalies: <a href="https://library.oapen.org/bitstream/handle/20.500.12657/25494/1004601.pdf" target="_blank" rel="noopener noreferrer">Extraterritorialities in Occupied Worlds (Maayan Amir &amp; Ruti Sela, eds., Punctum Books)</a> - An open-access volume examining legal-spatial anomalies, transit zones, and offshore jurisdictions that disrupt conventional Westphalian models of territorial sovereignty.</p>
+<h2 id="urban-political-geography-and-spatial-injustice">Urban Political Geography and Spatial Injustice</h2>
+<p>Analyzes how state rescaling, racial capitalism, militarized policing, and infrastructure shape the contemporary metropolis and struggles for the right to the city.</p>
+<p>Planetary Urbanization and Rescaling State Space: <a href="https://www.youtube.com/watch?v=JeFkasoah00" target="_blank" rel="noopener noreferrer">The Crisis of Planetary Urbanization (David Harvey / Boitempo)</a> - A recorded university lecture analyzing how capital accumulation and territorial restructuring turn global environments into operational landscapes of urbanization.</p>
+<p>Planetary Urbanization and Rescaling State Space: <a href="https://books.google.com/books?isbn=9780199270064" target="_blank" rel="noopener noreferrer">New State Spaces: Urban Governance and the Rescaling of Statehood (Neil Brenner, Oxford University Press)</a> - Demonstrates how national state territoriality has been actively restructured into competitive metropolitan and regional governance spaces.</p>
+<p>Carceral Geographies and Racial Capitalism: <a href="https://books.google.com/books?isbn=9780520242012" target="_blank" rel="noopener noreferrer">Golden Gulag: Prisons, Surplus, Crisis, and Opposition in Globalizing California (Ruth Wilson Gilmore, University of California Press)</a> - A landmark study illustrating how mass incarceration functioned as a spatial fix for structural surpluses of finance capital, rural land, and marginalized labor.</p>
+<p>Militarized Urbanism and Infrastructural Warfare: <a href="https://books.google.com/books?isbn=9781844677627" target="_blank" rel="noopener noreferrer">Cities Under Siege: The New Military Urbanism (Stephen Graham, Verso)</a> - Investigates how military security doctrines, surveillance technologies, and counterinsurgency strategies are imported into domestic metropolitan policing and urban design.</p>
+<p>Spatial Justice and the Right to the City: <a href="https://www.youtube.com/watch?v=vjyLWMSZ2nY" target="_blank" rel="noopener noreferrer">The Right to the City and Urban Resistance (David Harvey / Boitempo)</a> - An open university lecture exploring how urban social movements mobilize against real estate financialization to reclaim collective democratic control over city-making.</p>
+<p>Spatial Justice and the Right to the City: <a href="https://books.google.com/books?isbn=9781844678822" target="_blank" rel="noopener noreferrer">Rebel Cities: From the Right to the City to the Urban Revolution (David Harvey, Verso)</a> - Grounds spatial theory in historical anti-capitalist urban struggles, tenant organizing, and the defense of urban commons.</p>
+<h2 id="political-ecology-resource-frontiers-and-climate-geopolitics">Political Ecology, Resource Frontiers, and Climate Geopolitics</h2>
+<p>Interrogates the territorial dynamics of resource extraction, climate disruption, vertical volumetric sovereignty, and indigenous land defense.</p>
+<p>Critical Political Ecology: <a href="https://www.youtube.com/watch?v=SAWfggb1ezw" target="_blank" rel="noopener noreferrer">Critical Political Ecology (Dr. Paige West / SESYNC)</a> - A recorded university lecture tracing the genealogy of political ecology, global commodity chains, and Foucauldian power relations in environmental conflict.</p>
+<p>Critical Political Ecology: <a href="https://books.google.com/books?isbn=9781119167440" target="_blank" rel="noopener noreferrer">Political Ecology: A Critical Introduction (Paul Robbins, Wiley-Blackwell)</a> - The standard graduate-level introduction to political ecology frameworks, exploring degradation narratives, conservation enclosures, and environmental conflict.</p>
+<p>Fossil Capital and Energy Geopolitics: <a href="https://books.google.com/books?isbn=9781844677450" target="_blank" rel="noopener noreferrer">Carbon Democracy: Political Power in the Age of Oil (Timothy Mitchell, Verso)</a> - Demonstrates how the physical extraction, transport networks, and logistical bottlenecks of coal and oil shaped modern democratic governance and imperial foreign policy.</p>
+<p>Volumetric Geopolitics: Subsurface and Aerial Space: <a href="https://books.google.com/books?isbn=9781478008422" target="_blank" rel="noopener noreferrer">Voluminous States: Sovereignty, Materiality, and the Territorial Imagination (Franck Billé, ed., Duke University Press)</a> - Expands political geography beyond flat maps to theorize the politics of vertical airspace, subsoil tunnels, oceanic depths, and atmospheric currents.</p>
+<p>Settler Colonialism and Indigenous Land Sovereignty: <a href="https://books.google.com/books?isbn=9780816679652" target="_blank" rel="noopener noreferrer">Red Skin, White Masks: Rejecting the Colonial Politics of Recognition (Glen Sean Coulthard, University of Minnesota Press)</a> - Develops a grounded, place-based critique of state recognition and asserts indigenous self-determination against territorial dispossession and resource extraction.</p>
+<h2 id="advanced-electoral-geography-and-quantitative-spatial-analysis">Advanced Electoral Geography and Quantitative Spatial Analysis</h2>
+<p>Equips learners with computational, statistical, and geospatial methods to detect gerrymandering, model spatial voting patterns, and execute counter-cartographies.</p>
+<p>Computational Redistricting and Gerrymandering Detection: <a href="https://gerrychain.readthedocs.io/" target="_blank" rel="noopener noreferrer">GerryChain Documentation &amp; Tutorials (MGGG Redistricting Lab)</a> - An open-source computational toolkit and tutorial series using Markov chain Monte Carlo (MCMC) ensemble methods to quantify partisan bias and evaluate legislative map compactness.</p>
+<p>Computational Redistricting and Gerrymandering Detection: <a href="https://books.google.com/books?isbn=9781541674462" target="_blank" rel="noopener noreferrer">Why Cities Lose: The Deep Roots of the Urban-Rural Political Divide (Jonathan A. Rodden, Basic Books)</a> - A comprehensive empirical analysis demonstrating how the geographical clustering of voters into dense cities creates structural partisan bias in single-member legislative districts.</p>
+<p>Exploratory Spatial Data Analysis and Spatial Econometrics: <a href="https://www.youtube.com/watch?v=JwHxJsesG2Y" target="_blank" rel="noopener noreferrer">Introduction to Spatial Data Science (Luc Anselin / University of Chicago Center for Spatial Data Science)</a> - A complete university video lecture series explaining spatial weights matrices, global and local spatial autocorrelation (LISA), and spatial regression modeling.</p>
+<p>Exploratory Spatial Data Analysis and Spatial Econometrics: <a href="https://geodacenter.github.io/workbook/overview/index.html" target="_blank" rel="noopener noreferrer">GeoDa: An Introduction to Spatial Data Science (Luc Anselin / GeoDa Center)</a> - A free hands-on lab manual and software workbook for executing exploratory spatial data analysis, cluster detection, and spatial econometric regressions.</p>
+<p>Geographic Polarization and Contextual Voting Models: <a href="https://books.google.com/books?isbn=9780199277124" target="_blank" rel="noopener noreferrer">Putting Voters in Their Place: Geography and Elections in Great Britain (Ron Johnston &amp; Charles Pattie, Oxford University Press)</a> - A methodologically rigorous quantitative study providing frameworks for analyzing neighborhood contextual effects, spatial diffusion, and environmental voting patterns.</p>
+<p>Counter-Cartography and Community GIS: <a href="https://notanatlas.org/" target="_blank" rel="noopener noreferrer">This Is Not an Atlas: A Global Collection of Counter-Cartographies (kollektiv orangotango+, transcript Verlag)</a> - An open-access book and project collection documenting how grassroots social movements use geospatial tools and counter-mapping to contest state authority and corporate enclosures.</p>
+<h2 id="feminist-decolonial-and-critical-geopolitics">Feminist, Decolonial, and Critical Geopolitics</h2>
+<p>Deconstructs elite state-centric geopolitical paradigms through intimate bodily scales, imperial cartographic legacies, and abolitionist spatial alternatives.</p>
+<p>Embodied and Intimate Geopolitics: <a href="https://books.google.com/books?isbn=9781409428282" target="_blank" rel="noopener noreferrer">Feminist Geopolitics: Material States (Deborah P. Dixon, Routledge)</a> - Reorients geopolitical inquiry from interstate diplomacy to the visceral, affective, and gendered materialities of everyday human bodies.</p>
+<p>Imperial Cartographies and the Colonial Present: <a href="https://books.google.com/books?isbn=9781577180906" target="_blank" rel="noopener noreferrer">The Colonial Present: Afghanistan, Palestine, Iraq (Derek Gregory, Wiley-Blackwell)</a> - Traces how modern Western military interventions and security policies actively reproduce nineteenth-century colonial imaginative geographies and spatial categorizations.</p>
+<p>Popular Geopolitics and Media Assemblages: <a href="https://books.google.com/books?isbn=9781538118023" target="_blank" rel="noopener noreferrer">Popular Culture, Geopolitics, and Identity (Jason Dittmer, Rowman &amp; Littlefield)</a> - Examines how films, news media, graphic narratives, and everyday popular culture construct the spatial common sense that legitimizes state militarism and foreign intervention.</p>
+<p>Abolition Geographies and Spatial Liberation: <a href="https://books.google.com/books?isbn=9781839761706" target="_blank" rel="noopener noreferrer">Abolition Geography: Essays Towards Liberation (Ruth Wilson Gilmore, Verso)</a> - A seminal collection theorizing how freedom requires the physical construction of new spatial relations, life-affirming infrastructures, and non-carceral community arrangements.</p>
+    </article>
+  </main>
 
 </body>
 </html>

@@ -1,165 +1,355 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
 
-<title>Great Courses</title>
-<link rel="stylesheet" href="/political-geography/style.css">
-<meta name="description" content="">
+  <title>Great Courses in Political Geography</title>
+  <meta name="description" content="Great Courses in Political Geography curriculum by hocbigg.">
+  <meta name="author" content="hocbigg">
 
-<link rel="canonical" href="https://hocbigg.github.io/political-geography/">
+  <link rel="canonical" href="https://hocbigg.github.io/political-geography/extras/courses.html">
+  <meta property="og:title" content="Great Courses in Political Geography">
+  <meta property="og:description" content="Great Courses in Political Geography curriculum by hocbigg.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hocbigg.github.io/political-geography/extras/courses.html">
+  <link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
 
-<meta property="og:title" content="Great Courses">
-<meta property="og:description" content="">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://hocbigg.github.io/political-geography/">
-<meta name="author" content="hocbigg">
-<link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
+  <style>
+:root {
+  color-scheme: light dark;
+
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #595959;
+  --border: #e0e0e0;
+  --th-bg: #f6f8fa;
+  --code-bg: #f4f4f4;
+  --link: #0969da;
+  --focus-ring: #0969da;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117;
+    --fg: #e6edf3;
+    --muted: #8b949e;
+    --border: #30363d;
+    --th-bg: #161b22;
+    --code-bg: #161b22;
+    --link: #58a6ff;
+    --focus-ring: #58a6ff;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1.5rem auto;
+  max-width: 60rem;
+  padding: 0 1rem 3.5rem;
+  background-color: var(--bg);
+  color: var(--fg);
+  font: 1.15rem/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  
+  /* Cú pháp hiện đại thay thế cho word-wrap */
+  overflow-wrap: break-word;
+}
+
+.site-header {
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.5rem 1.25rem;
+  font-size: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+nav a:hover, 
+nav a:focus-visible {
+  color: var(--fg);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+nav .nav-brand {
+  color: var(--fg);
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.skip-link {
+  position: absolute;
+  transform: translateY(-150%);
+  left: 1rem;
+  background: var(--fg);
+  color: var(--bg);
+  padding: 0.5rem 1rem;
+  z-index: 100;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: transform 0.2s ease;
+}
+
+.skip-link:focus {
+  transform: translateY(1rem);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: var(--fg);
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--border);
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1.15rem;
+}
+
+h6 {
+  font-size: 1rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+p, ul, ol, blockquote, table {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+li > ul,
+li > ol {
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+a:has(img) {
+  text-decoration: none;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.page-header .page-subtitle {
+  color: var(--muted);
+  font-size: 1.15rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page-header img {
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.875em;
+  background-color: var(--code-bg);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+
+pre {
+  background-color: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+  tab-size: 2;
+}
+
+pre code {
+  background: transparent;
+  padding: 0;
+  border: none;
+  font-size: 0.9rem;
+  border-radius: 0;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.6rem 0.75rem;
+  vertical-align: top;
+}
+
+th {
+  background-color: var(--th-bg);
+  font-weight: 600;
+}
+
+blockquote {
+  margin-inline: 0;
+  border-left: 4px solid var(--border);
+  padding-left: 1rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media print {
+  body {
+    max-width: none;
+    color: #000;
+    background: #fff;
+  }
+  .skip-link, nav {
+    display: none;
+  }
+}
+  </style>
 </head>
-
 <body>
 
-<nav>
-<a href="/">Hocbigg</a>
-<a href="/political-geography/">Political-Geography</a>
-<a href="/political-geography/advanced_topics.html">Advanced Topics</a>
-<a href="/political-geography/extras/courses.html">Extra Courses</a>
-<a href="/political-geography/extras/readings.html">Extra Reading</a>
-<a href="https://github.com/hocbigg/political-geography/" target="_blank">View on Github</a>
-</nav>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
 
-<main>
-<article>
+  <header class="site-header">
+    <nav aria-label="Main Navigation">
+    <ul>
+      <li><a href="https://hocbigg.github.io/" class="nav-brand">Hocbigg</a></li>
+      <li><a href="/political-geography/">Political Geography</a></li>
+      <li><a href="/political-geography/advanced_topics.html">Advanced Topics</a></li>
+      <li><a href="/political-geography/extras/readings.html">Extra Readings</a></li>
+      <li><a href="/political-geography/extras/courses.html">Extra Courses</a></li>
+      <li><a href="https://github.com/hocbigg/political-geography" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in new tab)</span></a></li>
+    </ul>
+    </nav>
+  </header>
 
-<h1 id="great-courses">Great Courses</h1>
-<p>This is a list of high-quality courses that, for one reason or another, didn't make it into the curriculum.
-The most common reasons are that the course isn't available often enough,
-or that there was an alternative that fit better into the curriculum.</p>
-<h2 id="geopolitics-and-international-security">Geopolitics and International Security</h2>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Courses</th>
-<th style="text-align: center;">Duration</th>
-<th style="text-align: center;">Effort</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://alison.com/course/navigating-geopolitics-in-the-21st-century">Navigating Geopolitics in the 21st Century</a></td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-</td>
-</tr>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/learn/global-energy">Politics and Economics of International Energy</a> (free audit)</td>
-<td style="text-align: center;">8 weeks</td>
-<td style="text-align: center;">3-5 hours/week</td>
-</tr>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://ocw.mit.edu/courses/17-906-reading-seminar-in-social-science-the-geopolitics-and-geoeconomics-of-global-energy-spring-2007/">The Geopolitics and Geoeconomics of Global Energy</a></td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-</td>
-</tr>
-</tbody>
-</table>
-<h2 id="electoral-and-political-boundaries">Electoral and Political Boundaries</h2>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Courses</th>
-<th style="text-align: center;">Duration</th>
-<th style="text-align: center;">Effort</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.open.edu/openlearn/society-politics-law/politics/nationalism-self-determination-and-secession/content-section-0">Nationalism, Self-determination and Secession</a></td>
-<td style="text-align: center;">8 hours</td>
-<td style="text-align: center;">-</td>
-</tr>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.futurelearn.com/courses/intercultural-studies-crossing-borders">Intercultural Studies: Crossing Borders</a></td>
-<td style="text-align: center;">3 weeks</td>
-<td style="text-align: center;">3 hours/week</td>
-</tr>
-</tbody>
-</table>
-<h2 id="environmental-political-geography">Environmental Political Geography</h2>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Courses</th>
-<th style="text-align: center;">Duration</th>
-<th style="text-align: center;">Effort</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.futurelearn.com/courses/global-studies-risks-threats">Global Studies: Risks in International Relations</a></td>
-<td style="text-align: center;">4 weeks</td>
-<td style="text-align: center;">3 hours/week</td>
-</tr>
-</tbody>
-</table>
-<h2 id="generaloverlapping">General/Overlapping</h2>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Courses</th>
-<th style="text-align: center;">Duration</th>
-<th style="text-align: center;">Effort</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://ocw.mit.edu/courses/17-436-territorial-conflict-fall-2004/">Territorial Conflict</a></td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-</td>
-</tr>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://alison.com/course/international-relations">International Relations</a></td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-</td>
-</tr>
-</tbody>
-</table>
-<h2 id="online-learning-great-courses">Online Learning - Great Courses</h2>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Courses</th>
-<th style="text-align: center;">Duration</th>
-<th style="text-align: center;">Effort</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/learn/learning-how-to-learn">Learning How to Learn</a></td>
-<td style="text-align: center;">4 weeks</td>
-<td style="text-align: center;">2 hours/week</td>
-</tr>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/learn/mindshift">Mindshift</a></td>
-<td style="text-align: center;">4 weeks</td>
-<td style="text-align: center;">2 hours/week</td>
-</tr>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.edx.org/learn/google-power-searching/google-power-searching-with-google">Powersearching with Google</a></td>
-<td style="text-align: center;">3 weeks</td>
-<td style="text-align: center;">4-6 hours/week</td>
-</tr>
-</tbody>
-</table>
-<h2 id="other">Other</h2>
+  <main id="main-content">
+    <article>
+
+<h1 id="great-courses-in-political-geography">Great Courses in Political Geography</h1>
+<p>This is a curated directory of high-signal university lectures, OpenCourseWare (OCW) modules, and specialized online courses that build deep intuition and strong spatial models for Political Geography.</p>
+<h2 id="geopolitics-grand-strategy-and-global-power">Geopolitics, Grand Strategy, and Global Power</h2>
 <ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.e-education.psu.edu/geog128/">Penn State GEOG 128: Geography of International Affairs</a></li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://ocw.mit.edu/courses/political-science/">MIT OpenCourseWare Political Science Courses</a> (various IR and related)</li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.futurelearn.com/subjects/politics-and-society-courses/geopolitics">FutureLearn Geopolitics Courses Collection</a></li>
+<li><a href="https://www.coursera.org/learn/geopolitics-europe" target="_blank" rel="noopener noreferrer">Geopolitics of Europe (Coursera / Sciences Po / Sylvain Kahn)</a></li>
+<li><a href="https://www.coursera.org/learn/global-diplomacy" target="_blank" rel="noopener noreferrer">Global Diplomacy: Diplomacy in the Modern World (Coursera / University of London &amp; SOAS / Dr. J. Simon Rofe &amp; Dr. Dan Plesch)</a></li>
+<li><a href="https://www.coursera.org/learn/changing-global-order" target="_blank" rel="noopener noreferrer">The Changing Global Order (Coursera / Universiteit Leiden / Prof. Madeleine O. Hosli)</a></li>
+<li><a href="https://www.youtube.com/@criticalgeopolitics8523" target="_blank" rel="noopener noreferrer">Political Geography and Critical Geopolitics (YouTube / Virginia Tech / Prof. Gerard Toal)</a></li>
 </ul>
-</article>
-</main>
+<h2 id="borders-mobilities-and-territorial-conflict">Borders, Mobilities, and Territorial Conflict</h2>
+<ul>
+<li><a href="https://www.coursera.org/learn/international-migrations" target="_blank" rel="noopener noreferrer">International Migrations: A Global Issue (Coursera / Sciences Po / Prof. Catherine Wihtol de Wenden)</a></li>
+<li><a href="https://www.edx.org/course/europe-without-borders" target="_blank" rel="noopener noreferrer">Europe Without Borders? (edX / The University of Hong Kong / Prof. Stefan Auer)</a></li>
+<li><a href="https://center-border-studies.uni-gr.eu/en/activities/border-realities" target="_blank" rel="noopener noreferrer">Border Realities Lecture Series (UniGR-Center for Border Studies / University of Luxembourg)</a></li>
+</ul>
+<h2 id="political-ecology-resources-and-energy-geopolitics">Political Ecology, Resources, and Energy Geopolitics</h2>
+<ul>
+<li><a href="https://www.coursera.org/learn/global-energy" target="_blank" rel="noopener noreferrer">Politics and Economics of International Energy (Coursera / Sciences Po / Prof. Giacomo Luciani)</a></li>
+<li><a href="https://www.edx.org/course/environmental-security-and-sustaining-peace-0" target="_blank" rel="noopener noreferrer">Environmental Security and Sustaining Peace (edX / SDG Academy / UNEP &amp; UNDP)</a></li>
+<li><a href="https://ocw.mit.edu/courses/11-382-water-diplomacy-spring-2021/" target="_blank" rel="noopener noreferrer">Water Diplomacy (MIT OpenCourseWare / Dr. Animesh Gain &amp; Prof. Lawrence Susskind)</a></li>
+<li><a href="https://ocw.mit.edu/courses/11-165j-urban-energy-systems-and-policy-fall-2022/" target="_blank" rel="noopener noreferrer">Urban Energy Systems and Policy (MIT OpenCourseWare / Prof. David Hsu)</a></li>
+</ul>
+<h2 id="spatial-theory-critical-geography-and-urban-state-space">Spatial Theory, Critical Geography, and Urban State Space</h2>
+<ul>
+<li><a href="https://davidharvey.org/reading-capital/" target="_blank" rel="noopener noreferrer">Reading Marx's Capital with David Harvey (Official Course Repository / CUNY Graduate Center / Prof. David Harvey)</a></li>
+<li><a href="https://www.youtube.com/watch?v=JeFkasoah00" target="_blank" rel="noopener noreferrer">The Crisis of Planetary Urbanization (YouTube / Boitempo / Prof. David Harvey)</a></li>
+<li><a href="https://www.youtube.com/watch?v=vjyLWMSZ2nY" target="_blank" rel="noopener noreferrer">The Right to the City and Urban Resistance (YouTube / Boitempo / Prof. David Harvey)</a></li>
+</ul>
+<h2 id="spatial-data-science-and-computational-cartography">Spatial Data Science and Computational Cartography</h2>
+<ul>
+<li><a href="https://www.youtube.com/@GeoDaCenter" target="_blank" rel="noopener noreferrer">Introduction to Spatial Data Science (YouTube / Center for Spatial Data Science, University of Chicago / Prof. Luc Anselin)</a></li>
+<li><a href="https://mggg.org/" target="_blank" rel="noopener noreferrer">Gerrymandering and Algorithmic Redistricting (MGGG Redistricting Lab)</a></li>
+</ul>
+    </article>
+  </main>
 
 </body>
 </html>
